@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	*{
+		margin:0;
+		padding:0;
+	}
+	.page_container{
+		width:700px;
+		margin:0 auto;
+		height:800px;
+		border:1px gray solid;
+		
+	}
+	.top_section{
+		height:150px;
+		width:500px;
+	}
+	
+	.photo{
+		position:relative;
+		left:550px;
+		top:-100px;
+		width:100px;
+		height:100px;
+		border-radius:50px;
+	}
+	#name{
+		padding-top:30px;
+		font-size:30px;
+		font-family:SimHei;
+		font-style:oblique;
+		font-weight:bold;
+	}
+	#position{
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	.top_section_left_item{
+		display:inline;
+		
+	}
+	#division{
+		height:2px;
+		width:95%;
+		margin:10px auto;
+		background:#0066FF;
+	}
+	.sub{
+		width: 200px;
+		float: left;
+		background:red;
+		height:628px;
+		background:#0066FF;
+	}
+	.main{
+		margin-left: 220px; 
+		height:75%;
+	}
+	.sub_item{
+		fon-size:36px;
+		color:white;
+		float:left;
+		width:220px;
+		height:50px;
+		background:#003377;
+		line-height:50px
+	}
+	.sub_item_list{
+		margin-left:50px;
+		margin-top:60px;
+	}
+	.list_information{
+		color:white;
+		font-size:13px;
+		margin-bottom:10px;
+	}
+	.sub_item_other{
+		color:white;
+		margin-top:70px;
+		font-size:13px;
+		margin-bottom:10px;
+		margin-left:40px;
+	}
+	.sub_item_hobby{
+		margin-top:80px;
+		margin-bottom:20px;
+	}
+	.hobby{
+		display:inline;
+		text-align:center;
+		border:1px white solid;
+		padding:5px 10px 5px 10px;
+		margin-right:5px;
+		margin-left:3px;
+		color:white;
+	}
+	.main_item{
+		font-size:20px;
+		color:#0066FF;
+		border-bottom:2px #0066FF solid;
+		width:90%;
+		margin:0 auto;
+		padding-bottom:5px;
+		font-weight:bold;
+	}
+	.main_item_timeAndTitle{
+		width:90%;
+		margin:10px auto;
+		display:flex;
+	}
+	.main_item_time{
+		font-family:SemHei;
+		font-size:16px;
+		font-weight:bold;
+		color:gray;
+		flex:1;
+	}
+	.main_item_title{
+		font-family:SemHei;
+		font-size:16px;
+		font-weight:bold;
+		color:gray;
+		text-align:right;
+		flex:1;
+	}
+	.main_item_tcontent{
+		width:90%;
+		margin:10px auto;
+		color:gray;
+	}
+</style>
+</head>
+<body>
+	<div class="page_container">
+		<div class="top_section">
+			<div class="top_section_left">
+				<p id="name">&nbsp;&nbsp;Khai</p>
+				<p id="position">&nbsp;&nbsp;&nbsp;&nbsp;<i style="color:#0066FF;">求职岗位&nbsp;</i>:&nbsp;语文老师</p>
+				<div >
+					<p class="top_section_left_item">&nbsp;&nbsp;&nbsp;&nbsp;<i style="color:#0066FF;">到岗时间&nbsp;</i>:&nbsp;随时</p>
+					<p class="top_section_left_item" style="color:grey;font-style:oblique;">&nbsp;&nbsp;&nbsp;&nbsp;努力追求自己的目标GO！</p>
+				</div>
+			</div>
+			<img class="photo" src="photo.png"></img>
+		</div>
+		<div id="division"></div>
+		<div class="sub">
+			<p class="sub_item">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;基本信息</p>
+			<div class="sub_item_list">
+				<ul>
+					<li class="list_information">23岁</li>
+					<li class="list_information">应届生</li>
+					<li class="list_information">Khai@qq.com</li>
+					<li class="list_information">134161xxxxx</li>
+					<li class="list_information">广东</li>
+				</ul>
+			</div>
+			<p class="sub_item">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;技能证书</p>
+			<p class="sub_item_other">CET-4</p>
+			<p class="sub_item">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;兴趣爱好</p>
+			<div class="sub_item_hobby">
+				<div class="hobby">音乐</div>
+				<div class="hobby">电影</div>
+				<div class="hobby">爬山</div>
+			</div>
+			<p class="sub_item">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自我评价</p>
+			<div class="sub_item_list">
+				<ul>
+					<li class="list_information">性格开朗，具有较好的抗压能力，对待工作认真负责。</li>
+					<li class="list_information">与人相处友好融洽，具有较好的团队合作精神</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<p class="main_item">教育经历</p>
+			<div class="main_item_timeAndTitle">
+				<p class="main_item_time">2015.9-2019.6</p>
+				<p class="main_item_title">广东学院</p>
+			</div>
+			<p class="main_item_tcontent">专业：汉语言文学</p>
+			<p class="main_item_tcontent">主要学习课程有汉语言文学，应用文写作，大学语文，写作技巧，文学作品赏析，语文教育研究，古诗词鉴赏等课程。</p>
+			<p class="main_item">实习经历</p>
+			<div class="main_item_timeAndTitle">
+				<p class="main_item_time">2017.9-2018.6</p>
+				<p class="main_item_title">广东高等小学</p>
+			</div>
+			<p class="main_item_tcontent">职位：小学语文老师助理</p>
+			<p class="main_item_tcontent">实习内容：学习语文教学方面的知识，实践教学，以兴趣为引激发学生们学习语文的激情，同时帮助批改学生们的语文作业，修改错误并思考错误
+				出现的原因加以分析找寻相应的教学解决办法，给学生们推荐有益的课外读物，开拓学生的视野等。</p>
+			<p class="main_item">项目经历</p>
+			<div class="main_item_timeAndTitle">
+				<p class="main_item_time">2016.9-2017.6</p>
+				<p class="main_item_title">广州东山口历史文化街区文化保育研究</p>
+			</div>
+			<p class="main_item_tcontent">职位：项目负责人</p>
+			<p class="main_item_tcontent">工作内容：总结出该街区特有的保育模式，提出具体的解决方案，组织队员一起实地考察，深入探索，深入项目
+						研究调查，明确问题的关键所在，采用类比的研究方法，与情况相似的文化街区进行比较，探索符合实情的解决方案</p>
+		</div>
+	</div>
+</body>
+</html>
